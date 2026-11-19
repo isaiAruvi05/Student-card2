@@ -1,32 +1,44 @@
-
-const students = [
+export const initialStudents = [
   {
     id: 1,
-    name: "Arun Kumar",
-    regNo: "2024001",
+    name: "Ananya Kumar",
+    registerNo: "STU2026001",
     department: "Computer Science",
-    year: "2nd Year",
-    email: "arun@gmail.com",
-    image: "https://i.pravatar.cc/150?img=12",
+    year: "II Year",
+    email: "ananya@example.com",
+    phone: "9876543210",
+    photo: "",
+    status: "Active"
   },
   {
     id: 2,
-    name: "Priya",
-    regNo: "2024002",
+    name: "Rahul S",
+    registerNo: "STU2026002",
     department: "Information Technology",
-    year: "3rd Year",
-    email: "priya@gmail.com",
-    image: "https://i.pravatar.cc/150?img=47",
+    year: "III Year",
+    email: "rahul@example.com",
+    phone: "9876543211",
+    photo: "",
+    status: "Active"
   },
   {
     id: 3,
-    name: "Rahul",
-    regNo: "2024003",
-    department: "Electronics",
-    year: "1st Year",
-    email: "rahul@gmail.com",
-    image: "https://i.pravatar.cc/150?img=13",
-  },
+    name: "Meena R",
+    registerNo: "STU2026003",
+    department: "Commerce",
+    year: "I Year",
+    email: "meena@example.com",
+    phone: "9876543212",
+    photo: "",
+    status: "Active"
+  }
 ];
 
-export default students;
+export const initialStaff = {
+  name: "Staff Administrator",
+  staffId: "STF001",
+  department: "Administration",
+  email: "staff@college.edu",
+  phone: "9000000000",
+  photo: ""
+};
